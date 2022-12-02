@@ -12,17 +12,17 @@
 # dice_num = randint(0, 5) #Change from (1,6) to (0,5)
 # print(dice_imgs[dice_num])
 
-# Play Computer
-year = int(input("What's your year of birth?"))
-if year > 1980 and year <= 1994: #Added an equal sign
-  print("You are a millenial.")
-elif year > 1994:
-  print("You are a Gen Z.")
+# # Play Computer
+# year = int(input("What's your year of birth?"))
+# if year > 1980 and year <= 1994: #Added an equal sign
+#   print("You are a millenial.")
+# elif year > 1994:
+#   print("You are a Gen Z.")
 
-# # Fix the Errors
-# age = input("How old are you?")
-# if age > 18:
-# print("You can drive at age {age}.")
+# Fix the Errors
+age = int(input("How old are you?")) #changed input to an int
+if age > 18:
+    print("You can drive at age {age}.") #indented the print statement
 
 # #Print is Your Friend
 # pages = 0
