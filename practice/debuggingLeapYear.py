@@ -19,7 +19,8 @@
 # else:
 #   print("Not leap year.")
 
-# # ERROR: TypeError: not all arguments converted during string formatting
+# # ERROR:
+# # TypeError: not all arguments converted during string formatting
 
 # AFTER:
 year = int(input("Which year do you want to check?"))

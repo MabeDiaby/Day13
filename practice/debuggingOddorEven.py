@@ -6,7 +6,7 @@
 # Hint
 # Review the previous lesson and go through the 10 steps to tackle these debugging problems.
 
-# BEFORE:
+# # BEFORE:
 # number = int(input("Which number do you want to check?"))
 
 # if number % 2 = 0:
@@ -14,7 +14,8 @@
 # else:
 #   print("This is an odd number.")
 
-# ERROR: SyntaxError: invalid syntax on = sign
+# # ERROR: 
+# # SyntaxError: invalid syntax on = sign
 
 # AFTER:
 number = int(input("Which number do you want to check?"))
