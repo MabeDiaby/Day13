@@ -22,7 +22,8 @@
 # Fix the Errors
 age = int(input("How old are you?")) #changed input to an int
 if age > 18:
-    print("You can drive at age {age}.") #indented the print statement
+    print(f"You can drive at age {age}.") #added an f string
+    #indented the print statement
 
 # #Print is Your Friend
 # pages = 0
